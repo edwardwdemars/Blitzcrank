@@ -47,7 +47,7 @@ module.exports = {
             messages.push("!opgg user *summoner name* *region*: returns info about a player from a certain region");
             messages.push("Use the abbreviated version of a region's name, e.g. na, euw, kr, etc.")
             messages.push("!opgg user *summoner names*: returns info about multiple players");
-            messages.push("Do not put any spaces inside summoner names, e.g. King Jebus should be KingJebus)");
+            messages.push("Do not put any spaces inside summoner names, e.g. King Jebus should be KingJebus");
             let help = "";
             for(let i = 0; i<messages.length;i++){
                 help+=messages[i] + "\n"

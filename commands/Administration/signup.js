@@ -1,4 +1,4 @@
-module.exports = {
+/*module.exports = {
 	name: 'signup',
 	description: 'Retrieve the latest battlefly links.',
 	execute(message, args) {
@@ -18,4 +18,4 @@ module.exports = {
             return message.channel.send(`Sorry, there was an error trying to find the link ${message.author}! Please check your spelling or use !signup help for help.`);
         }
 	},
-};
+};*/

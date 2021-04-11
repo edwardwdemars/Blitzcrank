@@ -9,6 +9,8 @@ module.exports = {
             }else if(coin == 1){
                 return message.channel.send("Tails")
             }
+        }else if(args[0] == "help"){
+            return message.channel.send("Enter 0 parameters for a simple coin flip, or two people to choose between them")
 		}else if (args[1] == null) {
 			return message.channel.send("Enter either 0 or 2 parameters");
 		}else{

@@ -26,6 +26,8 @@ module.exports = {
                         index = i;
                     }
                 }
+            }else if(args[0] == "help"){
+                return message.channel.send("Enter no parameters to search for yourself, a specific player to search for them, or all to see all player's elo")
             }else{
                 let name = "";
                 for(let i = 0; i<args.length; i++){

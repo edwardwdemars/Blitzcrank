@@ -6,6 +6,7 @@ module.exports = {
         jokes.push("I put the go in golem. That was humor. Other golems find that to be appropriately funny.");
         jokes.push("A rolling golem gathers no rust.");
         jokes.push("https://www.youtube.com/watch?v=GifHpc6go58")
+        jokes.push(":robot: ------C")
         let rand = getRndInteger(0, jokes.length);
 		message.channel.send(jokes[rand]);
 	},

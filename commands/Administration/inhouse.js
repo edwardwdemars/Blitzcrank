@@ -3,7 +3,7 @@ module.exports = {
 	description: 'Sends a new inhouse message',
     clientPermissions: ['ADMINISTRATOR'],
 	execute(message, args) {
-        let role = "<@&" + 829835977554919424 + ">";
+        let role = "<@&806642821024579608>";
 		if(args[1] != null){
             return message.channel.send(role + " Anyone who plans on playing in the in house at " + args[0] + " pm " + args[1] + " react with :thumbsup:")
         }else if(args[0] == "help"){
